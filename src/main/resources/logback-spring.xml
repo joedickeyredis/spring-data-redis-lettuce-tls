@@ -6,9 +6,7 @@
         </encoder>
     </appender>
 
-    <logger name="org.springframework.data.redis.core.RedisConnectionUtils" level="debug">
-        <appender-ref ref="CONSOLE" />
-    </logger>
+    <logger name="org.springframework.data.redis.core.RedisConnectionUtils" level="debug"/>
 
     <root level="info">
         <appender-ref ref="CONSOLE"/>
